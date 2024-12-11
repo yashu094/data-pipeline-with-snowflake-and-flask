@@ -17,8 +17,7 @@ This project involves creating a backend API to manage multilingual translation 
     
 
 ### Snowflake Table Schema:
-
-Plain textANTLR4BashCC#CSSCoffeeScriptCMakeDartDjangoDockerEJSErlangGitGoGraphQLGroovyHTMLJavaJavaScriptJSONJSXKotlinLaTeXLessLuaMakefileMarkdownMATLABMarkupObjective-CPerlPHPPowerShell.propertiesProtocol BuffersPythonRRubySass (Sass)Sass (Scss)SchemeSQLShellSwiftSVGTSXTypeScriptWebAssemblyYAMLXML`   sqlCopy codeCREATE TABLE multilingual_data (      TALK_ID INT PRIMARY KEY,      NATIVE_LANG VARCHAR,      TRANSCRIPT VARCHAR,      SPEAKER_1 VARCHAR,      RECORDED_DATE DATE,      TITLE VARCHAR,      VIEWS INT,      DURATION INT  );   `
+CREATE TABLE multilingual_data (      TALK_ID INT PRIMARY KEY,      NATIVE_LANG VARCHAR,      TRANSCRIPT VARCHAR,      SPEAKER_1 VARCHAR,      RECORDED_DATE DATE,      TITLE VARCHAR,      VIEWS INT,      DURATION INT  );   `
 
 3\. **API Endpoints**
 ---------------------
